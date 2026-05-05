@@ -37,7 +37,7 @@ This occurs because, this time, no image is included in the repository. You must
 Compile, as you have done in previous project, and run the code using QEMU:
 
 ```bash
-qemu-system-arm -M versatilepb -m 128M -kernel build/vid.bin -serial mon:stdio
+qemu-system-arm -M versatilepb -m 128M -kernel build/timer.bin -serial mon:stdio
 ```
 
 ## Problem from the Textbook
