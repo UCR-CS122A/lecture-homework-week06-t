@@ -1,5 +1,13 @@
 # Lecture Homework Week 06 - Tuesday
 
+## Codespace Issue Fixed
+
+In class today we all noticed an issue with trying to create a Codespace on GitHub. The issue
+turn out to be with an upgrade of ubuntu:latest to ubuntu:26.04, which apparently is not compatible
+with desktop lite. The fix is easy. Open [.devcontainer/Dockerfile](.devcontainer/Dockerfile) and
+on the very first line change `FROM ubuntu:latest` to `FROM ubuntu:24.04`. Commit and push the
+updated Dockerfile and then relaunch the Codespace.
+
 For this lecture homework, you will explore and modify the Timer driver, which uses interrupts.
 
 ## Getting the Code
