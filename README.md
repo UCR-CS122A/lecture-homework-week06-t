@@ -33,6 +33,13 @@ This occurs because, this time, no image is included in the repository. You must
 1. The image must be an appropriate size to fit on the display.
 2. The image must not be a copy of `image0.bmp` from the previous lab. It should be a new, appropriate image.
 
+### Running the code
+Compile, as you have done in previous project, and run the code using QEMU:
+
+```bash
+qemu-system-arm -M versatilepb -m 128M -kernel build/vid.bin -serial mon:stdio
+```
+
 ## Problem from the Textbook
 
 For this homework assignment, you will be doing a slightly modified version of Problem 1, starting at the bottom of page 95 of the textbook.
